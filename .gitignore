@@ -20,5 +20,6 @@ celerybeat-schedule
 # virtualenv directory:
 venv
 
-# local .env
+# Local files
 .env
+mymetro/static/*

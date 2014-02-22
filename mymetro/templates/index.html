@@ -15,6 +15,14 @@
     <!-- PT Sans Google Font -->
     <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
+    <style type="text/css">
+        .mm-layout {
+            border: 1px solid white;
+            border-radius: 8px;
+            margin: 30px auto 0px;
+        }
+    </style>
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -27,8 +35,23 @@
     <div class="container">
 
       <div style="padding: 40px 15px; text-align: center; color: #ffffff;">
+        <img src="{{ STATIC_URL }}client/img/mm-icon.png">
         <h1>MyMetro</h1>
         <p class="lead">A hyperlocal civic notification app</p>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <img src="{{ STATIC_URL }}client/img/mm-layout-1.png" class="img-responsive mm-layout" alt="App Layout">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <img src="{{ STATIC_URL }}client/img/mm-layout-2.png" class="img-responsive mm-layout" alt="App Layout">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <img src="{{ STATIC_URL }}client/img/mm-layout-3.png" class="img-responsive mm-layout" alt="App Layout">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <img src="{{ STATIC_URL }}client/img/mm-layout-4.png" class="img-responsive mm-layout" alt="App Layout">
+            </div>
+        </div>
       </div>
 
     </div><!-- /.container -->

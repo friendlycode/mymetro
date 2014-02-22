@@ -1,7 +1,6 @@
 from django.contrib import admin
 from django.conf.urls import patterns, include, url
-from django.shortcuts import render_to_response
-
+from django.shortcuts import render
 
 # See: https://docs.djangoproject.com/en/dev/ref/contrib/admin/#hooking-adminsite-instances-into-your-urlconf
 admin.autodiscover()
@@ -9,7 +8,7 @@ admin.autodiscover()
 
 # define a catch all
 def index(request):
-    return render_to_response('index.html')
+    return render(request, 'index.html')
 
 # See: https://docs.djangoproject.com/en/dev/topics/http/urls/
 urlpatterns = patterns('',
