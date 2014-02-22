@@ -19,3 +19,6 @@ celerybeat-schedule
 
 # virtualenv directory:
 venv
+
+# local .env
+.env
